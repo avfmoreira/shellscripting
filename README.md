@@ -9,7 +9,7 @@ This repo is used to save my shellscript exercises
 ![add-new-local-user.sh-executed](https://github.com/avfmoreira/shellscripting/blob/main/add-local-user/add-new-local-user.jpg)
 [add-new-local-user.sh](https://github.com/avfmoreira/shellscripting/blob/main/add-local-user/add-new-local-user.sh) - This script allows the user create new accounts on local system.
 
-### HOW it works?
+### How it works?
 this script just can be called by a user with administrative privileges, a superuser or root user. The user must pass two arguments: It's mandatory that first argument must be the USER_NAME. All that remains will be interpreted as comment to the account.
 
 ### If everything goes well 
