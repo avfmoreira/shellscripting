@@ -18,9 +18,9 @@ the return must be a message with
 - the account name 
 - the random pass
 
-## disable-accountssh
-![add-new-local-user.sh-executed](https://github.com/avfmoreira/shellscripting/blob/main/disable-accounts.jpg)
-[add-new-local-user.sh](https://github.com/avfmoreira/shellscripting/blob/main/disable-accounts.sh) - This script allows the user disable, delete and archive accounts on local system.
+## disable-accounts.sh
+![disable-accounts.sh](https://github.com/avfmoreira/shellscripting/blob/main/disable-accounts.jpg)
+[disable-accounts.sh](https://github.com/avfmoreira/shellscripting/blob/main/disable-accounts.sh) - This script allows the user disable, delete and archive accounts on local system.
 
 ### How it works?
 
