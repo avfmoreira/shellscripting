@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# This script disable, delete and/or archives users on the local system
+# This script disable, delete and archives users on the local system
 #
 ARCHIVE_DIR='/archive'
 
@@ -28,6 +28,7 @@ if [[ "${#}" -lt 1 ]]
 then
 	usage
 else
+    #parse the options
 	while getopts dra OPTION
 	do
 		case ${OPTION} in
@@ -108,8 +109,8 @@ else
                 echo "The account ${USERNAME} was NOT disable." >&2
                 exit 1
             fi
-            echo "The account ${USERNAME} was disable."  
         fi
+        echo "The account ${USERNAME} was disabled."
     done
 fi
 exit 0
