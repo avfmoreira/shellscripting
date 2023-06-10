@@ -1,12 +1,8 @@
 #! /bin/bash
-
 #
 # This script display summarize failed login attempts.
 #
-
-#a file must be passed as argument, if not display an error and exit 1
 FILE=${@}
-
 #Set a temp directory
 TEMP_DIR='/var/tmp/'
 #Set a temp file 
