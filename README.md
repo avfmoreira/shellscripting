@@ -28,3 +28,9 @@ Only a usar that have superuser privileges can execute this script.
 The user must pass at least one user that will be deleted, but can be more than one. Otherwise the script will be display usage information.
 
 There are as options -a (archive the home directory), -d (delete the account) and -r (remove the home directory account). IMPORTANT: In case the option -d there no passed, the script will just deactive the user, blocking your login until manual intervention of sysadmin.
+
+## show-attackers.sh
+![show-attackers.sh](https://github.com/avfmoreira/shellscripting/blob/main/show-attackers.jpg)
+[show-attackers.sh](https://github.com/avfmoreira/shellscripting/blob/main/show-attackers.sh) - This script receive a file that content a attempts failed login list as input and sumeraze it to display  if there are any IP addresses with more than 10 failed login attempts, the number of attempts made, the IP address from which those attempts were made, and the location of the IP address will be displayed.
+
+The goals of this exercise was understand how works the commands grep, cut and awk
