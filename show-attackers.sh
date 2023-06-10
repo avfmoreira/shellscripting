@@ -30,7 +30,7 @@ fi
 #Count how many times of falied login attempts by IP address and select all those up 10 times and store in a temp file
 cat ${FILE} | grep "Failed password" | cut -d " " -f 11 | sort -nk 2 | grep -vE '[a-zA-Z]' | uniq -c | awk '($1 > 10) {print $1","$2}' > ${ATTEMPTS_BY_IP_LIST}
 
-#For each item in the list previusly stored, get count, ip and location of the ip address and stored in a csv file
+#For each item in the list previously stored, get count, ip and location of the ip address and stored in a csv file
 for ITEM in $(cat ${ATTEMPTS_BY_IP_LIST})
 do
 	NUMBER_ATTEMPTS=$(echo "${ITEM}" | awk -F ',' '{print $1}')
