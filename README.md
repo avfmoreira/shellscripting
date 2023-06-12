@@ -34,3 +34,7 @@ There are as options -a (archive the home directory), -d (delete the account) an
 [show-attackers.sh](https://github.com/avfmoreira/shellscripting/blob/main/show-attackers.sh) - This script receive a file that content a attempts failed login list as input and sumeraze it to display  if there are any IP addresses with more than 10 failed login attempts, the number of attempts made, the IP address from which those attempts were made, and the location of the IP address will be displayed.
 
 The goals of this exercise was understand how works the commands grep, cut and awk
+
+## run-everywhere.sh
+![run-everywhere.sh](https://github.com/avfmoreira/shellscripting/blob/main/multi/run-everywhere.jpg)
+[run-everywhere.sh](https://github.com/avfmoreira/shellscripting/blob/main/multi/run-everywhere.sh) - Once the peer are authenticated by ssh, this script allow the user send commands a list of machines at once.
